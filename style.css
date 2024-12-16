@@ -1,0 +1,59 @@
+
+@font-face {
+    font-family: 'Gyeonggi_Title_Medium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /* background-color: #000; */
+    /* opacity: 0.5; */
+    z-index: 10;
+    background: radial-gradient(
+        rgba(238, 229, 222, 0.457),
+        rgba(149, 128, 128, 0.8)
+    );
+}
+.wrap{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 20;
+}
+.logo{
+    height: 230px;
+    text-align: center;
+    padding-top: 132px;
+}
+.subcopy{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    padding-top: 200px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    font-family: 'Gyeonggi_Title_Medium';
+}
+.bt00{
+    height: 43px;
+    padding-top: 40px;
+    text-align: center;
+}
